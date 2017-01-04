@@ -3,7 +3,7 @@
 fprintf('Loading movie ratings dataset.\n\n');
 
 %  Load data
-load ('ex8_movies.mat');
+load ('movies.mat');
 
 %  Y is a 1682x943 matrix, containing ratings (1-5) of 1682 movies on 
 %  943 users
@@ -70,7 +70,7 @@ pause;
 fprintf('\nTraining collaborative filtering...\n');
 
 %  Load data
-load('ex8_movies.mat');
+load('movies.mat');
 
 %  Y is a 1682x943 matrix, containing ratings (1-5) of 1682 movies by 
 %  943 users
